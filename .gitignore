@@ -1,0 +1,21 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints
+
+# Binarios locales de Hadoop / winutils (Windows)
+hadoop/bin/*.exe
+hadoop/bin/*.dll
+hadoop/bin/*.cs
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
